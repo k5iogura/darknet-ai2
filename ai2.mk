@@ -54,7 +54,7 @@ OBJ+=convolutional_kernels.o deconvolutional_kernels.o activation_kernels.o im2c
 endif
 
 OBJS = $(addprefix $(OBJDIR), $(OBJ))
-DEPS = $(wildcard src/*.h) Makefile
+DEPS = $(wildcard src/*.h) ai2.mk
 
 all: obj results $(EXEC)
 
