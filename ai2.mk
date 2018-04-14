@@ -7,7 +7,7 @@ AI2=1
 ARCH= --gpu-architecture=compute_52 --gpu-code=compute_52 
 
 VPATH=./src/
-EXEC=darknet
+EXEC=darknet-ai2
 OBJDIR=./obj/
 
 CC=gcc -std=gnu11
